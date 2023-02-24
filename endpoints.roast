@@ -1,0 +1,28 @@
+### endpoints
+
+#get all products
+GET http://localhost:5000/ 
+
+#create a Product
+Content-type: application/json
+POST http://localhost:5000/product << raw 
+{
+  "name":"cookies",
+  "price": 1.00
+}
+raw
+
+#get a product
+GET http://localhost:5000/product/1
+
+#edit a product
+Content-type: application/json
+PUT http://localhost:5000/product/4 << raw 
+{
+  "name": "cookies",
+  "price": 0.80
+}
+raw
+
+#delete a product
+DELETE http://localhost:5000/product/5

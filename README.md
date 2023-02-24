@@ -1,8 +1,6 @@
 
 # storeApp-flask-postgres-sqlalchemy
 
-
-
 first create your virtualenv
 
 `$ python3 -m venv venv`
@@ -37,14 +35,14 @@ finally the project run with:
 
 open your browser or your REST Client in: 
 
-###get all tasks
+### get all tasks
 `GET http://localhost:5000`\
-###get a task
+### get a task
 `GET http://localhost:5000/task/5`\
-###create a new task
+### create a new task
 `POST http://localhost:5000/task`\
-###edit a task
+### edit a task
 `PUT http://localhost:5000/task/5`\
-###delete a task
+### delete a task
 `DELETE http://localhost:5000/task/5`
 

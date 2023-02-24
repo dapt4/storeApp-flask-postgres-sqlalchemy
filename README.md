@@ -36,13 +36,13 @@ finally the project run with:
 open your browser or your REST Client in: 
 
 ### get all tasks
-`GET http://localhost:5000`\
+`GET http://localhost:5000`
 ### get a task
-`GET http://localhost:5000/task/5`\
+`GET http://localhost:5000/task/5`
 ### create a new task
-`POST http://localhost:5000/task`\
+`POST http://localhost:5000/task`
 ### edit a task
-`PUT http://localhost:5000/task/5`\
+`PUT http://localhost:5000/task/5`
 ### delete a task
 `DELETE http://localhost:5000/task/5`
 
